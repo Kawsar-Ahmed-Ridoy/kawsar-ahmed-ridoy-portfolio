@@ -1,19 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import errorimg from "../asset/errorimg.png";
 
-const Blog = () => {
+const ErrorPage = () => {
   return (
     <div>
       <div
-        style={{ height: "90vh" }}
+        style={{ height: "100vh" }}
         className="flex  justify-center align-middle w-full text-center  "
       >
-        <div className="my-auto">
-          <div className="text-5xl font-extrabold pb-6">
-            <span className="text-red-500 ">Comming </span>
-            <span className=""> Soon</span>
-            <span className="text-blue-500"> !!!</span>
-          </div>
+        <div className="my-auto ">
+          <img className="w-96" src={errorimg} alt="" />
           <Link to={"/"}>
             <button className="btn bg-cyan-400 font-bold border-none">
               Back To Home Page
@@ -25,4 +22,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default ErrorPage;
