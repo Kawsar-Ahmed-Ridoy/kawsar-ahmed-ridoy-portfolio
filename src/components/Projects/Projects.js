@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -20,14 +21,12 @@ const Projects = () => {
               />
             </figure>
             <div className="card-body">
-              <a
-                href="https://used-bikes-mart.web.app/"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                to='/project1'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
                 Live Website
-              </a>
+              </Link>
             </div>
           </div>
           <div className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
@@ -39,14 +38,12 @@ const Projects = () => {
               />
             </figure>
             <div className="card-body">
-              <a
-                href="https://wild-photography-74046.web.app/"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                to='/project2'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
                 Live Website
-              </a>
+              </Link>
             </div>
           </div>
           <div className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
@@ -58,14 +55,12 @@ const Projects = () => {
               />
             </figure>
             <div className="card-body">
-              <a
-                href="https://our-web-school.web.app/"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+              to='/project3'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
                 Live Website
-              </a>
+              </Link>
             </div>
           </div>
         </div>
