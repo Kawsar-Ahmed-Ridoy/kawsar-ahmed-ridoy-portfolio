@@ -13,15 +13,22 @@ const Navbar = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 font-bold">
-          <Link to="/blog">
-          <li>
-              <a className="text-gray-600">Blog</a>
-            </li>
+          <Link to="/">
+              <li>
+                <a className="text-red-500">Home</a>
+              </li>
+            </Link>
+            <Link to="/blog">
+              <li>
+                <a className="text-black">Blog</a>
+              </li>
             </Link>
             <Link to="/about">
-              <li> <a className="text-cyan-400">About Me</a></li>
+              <li>
+                {" "}
+                <a className="text-blue-500">About Me</a>
+              </li>
             </Link>
-            
           </ul>
         </div>
       </div>

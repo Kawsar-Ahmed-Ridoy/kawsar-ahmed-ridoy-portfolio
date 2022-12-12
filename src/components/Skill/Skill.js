@@ -91,7 +91,7 @@ const Skill = () => {
       </div>
       <div className="w-full lg:w-1/2 md:w-1/2 px-8 lg:px-0 md:px-0 lg:pl-8 md:pl-8 mt-8 lg:mt-0 md:mt-0">
         <div className="">
-          <h1 className="text-6xl font-extrabold text-gray-600 mb-4">Why Hire Me For Your Organization?</h1>
+          <h1 className="text-5xl font-extrabold text-gray-600 mb-5">Why Hire Me For Your Organization?</h1>
           <p className="text-[18px] my-4"> 
             I am a MERN Stack developer who learned and was certified by
             Programming Hero. I have done many full-stack projects with React
