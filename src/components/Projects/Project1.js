@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Project1 = () => {
   return (
@@ -38,16 +37,16 @@ const Project1 = () => {
           <p className="text-gray-600 font-bold mb-4">
             About A friendly Bike reselling platform for buyers and sellers.
           </p>
-          <div className="flex justify-center gap-4">
-            <Link className="btn bg-red-500 border-none font-bold ">
+          <div className="flex justify-center gap-4" >
+            <a href='https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-client' target='blank' className="btn bg-red-500 border-none font-bold ">
               Client Site
-            </Link>
-            <Link className="btn bg-black border-none font-bold ">
+            </a>
+            <a href='https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-server' target='blank' className="btn bg-black border-none font-bold ">
               Server Site
-            </Link>
-            <Link className="btn bg-blue-500 border-none font-bold ">
+            </a>
+            <a href='https://used-bikes-mart.web.app/' target='blank' className="btn bg-blue-500 border-none font-bold ">
               Live View
-            </Link>
+            </a>
           </div>
         </div>
 

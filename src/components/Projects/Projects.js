@@ -25,7 +25,7 @@ const Projects = () => {
                 to='/project1'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
-                Live Website
+                Details
               </Link>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Projects = () => {
                 to='/project2'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
-                Live Website
+                Details
               </Link>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Projects = () => {
               to='/project3'
                 className="btn text-center text-2xl font-bold mt-4  bg-cyan-400 border-none "
               >
-                Live Website
+                Details
               </Link>
             </div>
           </div>
