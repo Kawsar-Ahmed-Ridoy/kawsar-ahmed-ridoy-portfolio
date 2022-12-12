@@ -4,7 +4,6 @@ const Project1 = () => {
   return (
     <div>
       <div className="mb-16 max-w-screen-xl mx-auto mt-8">
-        
         <div className="flex justify-around text-center align-middle flex-wrap">
           <figure className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
             <img
@@ -37,34 +36,51 @@ const Project1 = () => {
           <p className="text-gray-600 font-bold mb-4">
             About A friendly Bike reselling platform for buyers and sellers.
           </p>
-          <div className="flex justify-center gap-4" >
-            <a href='https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-client' target='blank' className="btn bg-red-500 border-none font-bold ">
+          <div className="flex justify-center gap-4">
+            <a
+              href="https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-client"
+              target="_blank"
+              rel="noreferrer"
+              className="btn bg-red-500 border-none font-bold "
+            >
               Client Site
             </a>
-            <a href='https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-server' target='blank' className="btn bg-black border-none font-bold ">
+            <a
+              href="https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-server"
+              target="_blank"
+              rel="noreferrer"
+              className="btn bg-black border-none font-bold "
+            >
               Server Site
             </a>
-            <a href='https://used-bikes-mart.web.app/' target='blank' className="btn bg-blue-500 border-none font-bold ">
+            <a
+              href="https://used-bikes-mart.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn bg-blue-500 border-none font-bold "
+            >
               Live View
             </a>
           </div>
         </div>
 
         <div className="text-center mt-8 mb-4">
-            <h4 className="text-green-500 font-bold text-2xl">Main Features</h4>
-            <p className="text-gray-500">__________________</p>
+          <h4 className="text-green-500 font-bold text-2xl">Main Features</h4>
+          <p className="text-gray-500">__________________</p>
         </div>
 
         <div className=" max-w-[500px] mx-auto flex justify-center ">
-            <ul className="list-disc mx-auto font-bold text-gray-600 text-[18px]">
-                <li>This is best used bike resale market.</li>
-                <li>This site home page added image slider.</li>
-                <li>Home page scroll down, as you can see some Service, <br/> category, More, Advertise, and Footer.</li>
-                <li>My orders, Reported items, Dashboard are private.</li>
-                <li>Seller insert product form added.</li>
-            </ul>
+          <ul className="list-disc mx-auto font-bold text-gray-600 text-[18px]">
+            <li>This is best used bike resale market.</li>
+            <li>This site home page added image slider.</li>
+            <li>
+              Home page scroll down, as you can see some Service, <br />{" "}
+              category, More, Advertise, and Footer.
+            </li>
+            <li>My orders, Reported items, Dashboard are private.</li>
+            <li>Seller insert product form added.</li>
+          </ul>
         </div>
-
       </div>
     </div>
   );

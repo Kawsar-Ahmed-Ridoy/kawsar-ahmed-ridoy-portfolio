@@ -39,21 +39,24 @@ const Project2 = () => {
           <div className="flex justify-center gap-4">
             <a
               href="https://github.com/Kawsar-Ahmed-Ridoy/wild-photography-client"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-red-500 border-none font-bold "
             >
               Client Site
             </a>
             <a
               href="https://github.com/Kawsar-Ahmed-Ridoy/wild-photography-server"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-black border-none font-bold "
             >
               Server Site
             </a>
             <a
               href="https://wild-photography-74046.web.app/"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-blue-500 border-none font-bold "
             >
               Live View

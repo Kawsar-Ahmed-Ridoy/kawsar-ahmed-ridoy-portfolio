@@ -29,31 +29,34 @@ const Project3 = () => {
         </div>
         <div className=" text-center mt-4">
           <h1 className="text-4xl font-bold mb-2">
-            <span className="text-red-500">Used </span>
-            <span> Bikes</span>
-            <span className="text-blue-500"> Mart</span>
+            <span className="text-red-500">Our </span>
+            <span> Web</span>
+            <span className="text-blue-500"> School</span>
           </h1>
           <p className="text-gray-600 font-bold mb-4">
             About A friendly Bike reselling platform for buyers and sellers.
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-client"
-              target="blank"
+              href="https://github.com/Kawsar-Ahmed-Ridoy/our-web-school-client"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-red-500 border-none font-bold "
             >
               Client Site
             </a>
             <a
-              href="https://github.com/Kawsar-Ahmed-Ridoy/used-bikes-mart-server"
-              target="blank"
+              href="https://github.com/Kawsar-Ahmed-Ridoy/our-web-school-server"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-black border-none font-bold "
             >
               Server Site
             </a>
             <a
-              href="https://used-bikes-mart.web.app/"
-              target="blank"
+              href="https://our-web-school.web.app/"
+              target="_blank"
+              rel="noreferrer"
               className="btn bg-blue-500 border-none font-bold "
             >
               Live View
@@ -68,14 +71,14 @@ const Project3 = () => {
 
         <div className=" max-w-[500px] mx-auto flex justify-center ">
           <ul className="list-disc mx-auto font-bold text-gray-600 text-[18px]">
-            <li>This is best used bike resale market.</li>
-            <li>This site home page added image slider.</li>
+            <li>User can login with email and password & also can login with google account.</li>
+            <li>User can create account with email and password.</li>
             <li>
-              Home page scroll down, as you can see some Service, <br />{" "}
-              category, More, Advertise, and Footer.
+            User can see all the list of services. 
+            
             </li>
-            <li>My orders, Reported items, Dashboard are private.</li>
-            <li>Seller insert product form added.</li>
+            <li>user can view all the service in details.</li>
+            <li>user can logout form website when he want.</li>
           </ul>
         </div>
       </div>
