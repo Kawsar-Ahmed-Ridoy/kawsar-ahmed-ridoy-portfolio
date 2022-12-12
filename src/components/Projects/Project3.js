@@ -70,7 +70,7 @@ const Project3 = () => {
         </div>
 
         <div className=" max-w-[500px] mx-auto flex justify-center ">
-          <ul className="list-disc mx-auto font-bold text-gray-600 text-[18px]">
+          <ul className="list-disc mx-auto font-bold text-gray-600 text-[18px] px-6">
             <li>User can login with email and password & also can login with google account.</li>
             <li>User can create account with email and password.</li>
             <li>

@@ -6,7 +6,7 @@ const About = () => {
       <div className="">
         <h1 className="text-4xl font-bold text-center text-green-500 mt-12">About Me</h1>
     <p className="text-center mb-8">_______________</p>
-      <p className="w-1/2 mx-auto text-[18px] font-bold text-gray-600">
+      <p className="lg:w-1/2 px-8 mx-auto text-[18px] font-bold text-gray-600">
         I am Kawsar Ahmed Ridoy, a MERN Stack developer who learned and was
         certified by Programming Hero. I have done many full-stack projects with
         React and Node js. I am an expert in React JS, Express JS, Node JS,
