@@ -5,23 +5,23 @@ const Project2 = () => {
     <div>
       <div className="mb-16 max-w-screen-xl mx-auto mt-8">
         <div className="flex justify-around text-center align-middle flex-wrap">
-          <figure className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
+          <figure className="card w-96 h-[420px] py-7 shadow-xl pb-0 mb-4">
             <img
-              src="https://i.ibb.co/xSsGXCd/localhost-3001.png"
+              src="https://i.ibb.co/GR84d8T/wild-photography-74046-web-app-1.png"
               className="w-full"
               alt="Shoes"
             />
           </figure>
-          <figure className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
+          <figure className="card w-96 h-[420px] py-7 shadow-xl pb-0 mb-4">
             <img
-              src="https://i.ibb.co/xSsGXCd/localhost-3001.png"
+              src="https://i.ibb.co/FkQMdY5/wild-photography-74046-web-app-2.png"
               className="w-full"
               alt="Shoes"
             />
           </figure>
-          <figure className="card w-96 h-[480px] py-7 shadow-xl pb-0 mb-4">
+          <figure className="card w-96 h-[420px] py-7 shadow-xl pb-0 mb-4">
             <img
-              src="https://i.ibb.co/xSsGXCd/localhost-3001.png"
+              src="https://i.ibb.co/qNrxQXT/wild-photography-74046-web-app-3.png"
               className="w-full"
               alt="Shoes"
             />
